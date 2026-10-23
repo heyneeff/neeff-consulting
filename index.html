@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neeff Consulting</title>
+<meta name="description" content="Operations help for roofing and solar companies in Colorado. Get job status and money owed out of people's heads, without making your crew do data entry.">
+<style>
+  :root {
+    --bg: #f7f5f1;
+    --card: #ffffff;
+    --ink: #1d2124;
+    --muted: #5d656b;
+    --line: #e2ddd5;
+    --accent: #c4561c;
+    --accent-ink: #ffffff;
+    --soft: #f1e6dd;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16191b;
+      --card: #1f2326;
+      --ink: #eceae6;
+      --muted: #a2a9ae;
+      --line: #30363a;
+      --accent: #e5793f;
+      --accent-ink: #16191b;
+      --soft: #2a2420;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 18px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+  header { padding: 22px 0; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+  .brand { font-weight: 700; letter-spacing: .01em; }
+  header a.call { color: var(--ink); text-decoration: none; font-weight: 600; white-space: nowrap; }
+  section { padding: 36px 0; border-top: 1px solid var(--line); }
+  .hero { border-top: 0; padding-top: 40px; }
+  h1 { font-size: clamp(32px, 6vw, 46px); line-height: 1.12; margin: 0 0 18px; letter-spacing: -.01em; }
+  h2 { font-size: 26px; line-height: 1.25; margin: 0 0 16px; }
+  h3 { font-size: 19px; margin: 0 0 4px; }
+  p { margin: 0 0 14px; }
+  .lede { font-size: 21px; color: var(--muted); max-width: 36em; }
+  .btn {
+    display: inline-block; background: var(--accent); color: var(--accent-ink);
+    padding: 14px 22px; border-radius: 8px; text-decoration: none; font-weight: 600;
+    margin: 10px 12px 0 0;
+  }
+  .btn.ghost { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+  ul.pains { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+  ul.pains li { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+  ul.pains b { display: block; }
+  ul.pains span { color: var(--muted); font-size: 16px; }
+  .steps { display: grid; gap: 14px; }
+  .step { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 18px 18px 6px; }
+  .step .top { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  .price { color: var(--accent); font-weight: 700; white-space: nowrap; }
+  .step p { color: var(--muted); font-size: 16px; }
+  .note { background: var(--soft); border-radius: 10px; padding: 18px 20px; }
+  .note p:last-child { margin: 0; }
+  .contact a { color: var(--ink); }
+  footer { padding: 28px 0 40px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); }
+  @media (max-width: 480px) {
+    body { font-size: 17px; }
+    .wrap { padding: 0 16px; }
+    .lede { font-size: 19px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="brand">Neeff Consulting</div>
+  <a class="call" href="tel:+17202563888">720.256.3888</a>
+</header>
+
+<section class="hero">
+  <h1>The work moves. The status and the money don't.</h1>
+  <p class="lede">I help roofing and solar companies in Colorado get job status and money owed out of people's heads, without making your crew do data entry.</p>
+  <a class="btn" href="#contact">Let me shadow your team</a>
+  <a class="btn ghost" href="#how">How it works</a>
+</section>
+
+<section>
+  <h2>Sound familiar?</h2>
+  <ul class="pains">
+    <li><b>"Ask Mike, he knows."</b><span>Where every job stands lives in one person's head. The office calls the field all day to find out.</span></li>
+    <li><b>Money sitting on the table.</b><span>Final payments, supplements, depreciation checks and change orders that nobody is chasing.</span></li>
+    <li><b>Leads and quotes going cold.</b><span>Missed calls while everyone's on a roof, and quotes that never get a follow-up.</span></li>
+    <li><b>Everything runs through the owner.</b><span>You can't take two weeks off without something falling apart.</span></li>
+  </ul>
+</section>
+
+<section>
+  <h2>Built around your crew, not against them</h2>
+  <p>Most software fails because it asks the busiest people in the company to change how they work. I don't. Your crew keeps doing what they already do: texting photos, calling the office. The system captures it. Nobody types forms on a roof.</p>
+  <p>I use the tools you already pay for (Jobber, Housecall Pro, Airtable) before adding anything new.</p>
+</section>
+
+<section id="how">
+  <h2>How it works</h2>
+  <div class="steps">
+    <div class="step">
+      <div class="top"><h3>1. Shadow visit</h3><span class="price">Free</span></div>
+      <p>I spend a few hours watching how a job actually moves through your company. You get one thing I noticed and one free fix, whether or not we work together.</p>
+    </div>
+    <div class="step">
+      <div class="top"><h3>2. Ops audit</h3><span class="price">$750</span></div>
+      <p>60–90 minutes with you and your team, then a one-page report: the 2–3 problems costing you the most, roughly what they cost, and how to fix them. Credited toward the build if you go ahead within 30 days.</p>
+    </div>
+    <div class="step">
+      <div class="top"><h3>3. The build</h3><span class="price">$5–8k</span></div>
+      <p>I set up the fixes, starting with whichever gives you a win in the first week. Usually that's a clear view of every job's stage and every dollar still owed.</p>
+    </div>
+    <div class="step">
+      <div class="top"><h3>4. Monthly check-in</h3><span class="price">$400/mo</span></div>
+      <p>Software is the easy part. Each month I check that the new habits stuck and fix whatever slipped. Cancel anytime.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>About me</h2>
+  <div class="note">
+    <p>I'm Neeff, based in Colorado. I solve the same problem most trades have: the work moves, but the status and the money don't. It's hard to keep up.</p>
+    <p>I work with a small number of companies so I can do each one properly.</p>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Talk to me</h2>
+  <p>Call or text <a href="tel:+17202563888">720.256.3888</a>, or email <a href="mailto:heyneeff@gmail.com">heyneeff@gmail.com</a>.</p>
+  <p>Best times to reach me are whenever you're off the roof.</p>
+</section>
+
+<footer>© 2026 Neeff Consulting · Colorado</footer>
+
+</div>
+</body>
+</html>
